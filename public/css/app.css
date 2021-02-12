@@ -1,0 +1,499 @@
+/*  Whole site variables and styles */
+
+.bg-lightblue {
+  background-color: #e0ebeb;
+}
+
+/* body {
+  margin-top: 55px;
+} */
+
+section:nth-of-type(even) {
+  background-color: #e0ebeb;
+}
+
+a,
+a:hover {
+  color: inherit;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+header {
+  background-color:#2F4F4F;
+}
+
+li.nav-item:hover {
+  background-color: #e0ebeb;
+}
+.nav-link:hover {
+  color: #2F4F4F !important;
+}
+
+.card {
+  border: 1px solid lightgrey;
+}
+
+.hr-divider {
+  margin: 0px;
+  border: 1px solid #2F4F4F;
+}
+
+#scrollTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  background-color: #2F4F4F;
+  color: white;
+  cursor: pointer;
+  border-radius: .25rem;
+  font-size: 20px;
+}
+
+#scrollTop:hover {
+  background-color: #995a5a;
+}
+
+footer {
+  font-size: 13px;
+  font-weight: 300;
+}
+
+.footer_links li {
+  padding: 3px 0 3px 0;
+}
+
+#page-bottom {
+  font-size: 12px;
+  background-color: #2F4F4F;
+  color:#ededed;
+}
+
+/* Landing page variables ans styles */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../images/hero.jpg");
+  background-attachment: fixed;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;
+  /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  /* Place text in the middle of the image */
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  min-width: 300px;
+}
+
+.hero-image button {
+  color: #2F4F4F;
+}
+
+.hero-image button:hover {
+  background-color: #2F4F4F;
+  color: #FFFFFF;
+}
+
+section.index {
+  padding-top: 4rem;
+}
+
+.btn-more {
+  background-color: #2F4F4F;
+  color: #FFFFFF;
+  border: 2px solid #2F4F4F;
+  transition: all 0.5s;
+}
+
+
+.btn-more span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn-more span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn-more:hover {
+  background-color: #2F4F4F;
+  color: #FFFFFF;
+}
+
+.btn-more:hover span {
+  padding-right: 25px;
+}
+
+.btn-more:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.btn-more-index {
+  transform: translate(0px, +50%);
+}
+
+.btn-more-up {
+  transform: translate(0px, -50%);
+}
+
+.cover {
+  background: no-repeat center/cover;
+  min-height: 200px;
+}
+
+.mission-card i {
+  font-size:96px;
+}
+
+.mission-card:hover {
+  background-color: #2F4F4F;
+  color: #FFFFFF;
+  box-shadow: none;
+}
+
+/* Other pages variables and styles */
+.page-header {
+  height: 300px;
+  margin: 0px;
+  background-size: cover;
+  background-position: center;
+}
+
+.page-title {
+  font-weight:500;
+}
+
+.centered {
+  position: relative;
+  text-align: center;
+  top: 50%;
+  transform: translate(0px, -50%);
+  color: white;
+}
+
+/* Metabolic network styles */
+#svg_brain:hover .hover_path {
+  fill: #D87D6A;
+}
+
+#svg_brain:hover .hover_path_2 {
+  fill: #FFFFFF;
+}
+
+#svg_fat:hover .hover_path {
+  fill: #F0C93A;
+}
+
+#svg_fat:hover .hover_path_2 {
+  fill: #FFFFFF;
+}
+
+#svg_heart:hover .hover_path {
+  fill: #C23532;
+}
+
+#svg_heart:hover .hover_path_2 {
+  fill: #FFFFFF;
+}
+
+#svg_liver:hover .hover_path {
+  fill: #78392A;
+}
+
+#svg_liver:hover .hover_path_2 {
+  fill: #FFFFFF;
+}
+
+#svg_muscle:hover .hover_path {
+  fill: #C0604D;
+}
+
+#svg_muscle:hover .hover_path_2 {
+  fill: #FFFFFF;
+}
+#carousel-mt
+.carousel-control-next-icon,
+#carousel-mt
+.carousel-control-prev-icon {
+  filter: invert(1);
+}
+
+/* Profile card */
+.profile-card {
+  font-size: 14px;
+  border: 1px solid lightgrey;
+  transition: all 0.5s;
+}
+
+.profile-card:hover {
+  border: 1px solid #2F4F4F;
+  background-color: #e0ebeb;
+}
+
+.profile-card .card-img-block{
+    border-radius: .25rem .25rem 0 0;
+    float:left;
+    width:100%;
+    height: 150px;
+    overflow: hidden;
+}
+.profile-card .card-body{
+    padding: 70px 15px 15px 15px;
+    position:relative;
+}
+.profile-card .profile {
+  border-radius: 50%;
+  position: absolute;
+  top: -65px;
+  left: 50%;
+  max-width: 125px;
+  border: 5px solid #FFFFFF;
+  transform: translate(-50%, 0%);
+}
+.profile-card h5{
+    font-weight: 600;
+}
+.profile-card .card-text{
+  font-weight: 300;
+}
+
+/* Profile badge */
+.profile-badge {
+  width: 165px;
+  height: 70px;
+  text-align: left;
+  margin: 2px 2px 2px 2px;
+  border-radius: 35px;
+}
+
+.profile-badge .profile-img {
+  float: left;
+  position: relative;
+  top: 3px;
+  left: 4px;
+  width: 64px;
+  height: 64px;
+  border: 2px solid #FFFFFF;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-img img {
+  max-width: 64px;
+  max-height: 64px;
+}
+
+.profile-badge .profile-text {
+  position: relative;
+  vertical-align: middle;
+  font-size: 15px;
+  font-weight: 400;
+  left: 10px;
+  top: 12px;
+}
+
+.badge-list-title {
+  font-size: 20px;
+  font-weight: 300;
+  font-style: oblique;
+  padding-top: 15px;
+}
+
+/* Person page */
+.person-icon {
+  height: 30px;
+  padding-right: 0.75rem;
+}
+
+.icon-swap:hover .icon-visible {
+  display: none;
+}
+
+.icon-swap .icon-hidden {
+  display: none;
+}
+
+.icon-swap:hover .icon-hidden {
+  display: block;
+}
+
+
+.person-trivia-name {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.person-trivia-text {
+  font-style: oblique;
+  font-weight: 300;
+  font-size: 20px;
+}
+
+.skill-text {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.skill-percentage {
+  transform: translate(0, 50%);
+}
+
+.progress {
+  height: 10px;
+}
+
+.bg-skill-progress-1 {
+  background-color: #5a9999;
+}
+
+.bg-skill-progress-2 {
+  background-color: #995a99;
+}
+
+.bg-skill-progress-3 {
+  background-color: #99995a;
+}
+
+.bg-skill-progress-4 {
+  background-color: #5a5a99;
+}
+
+.bg-skill-progress-5 {
+  background-color: #995a5a;
+}
+
+.quote {
+  background-color: #e0ebeb;
+  border-left: 1px solid #2F4F4F;
+  padding: 2rem;
+}
+
+/* Publications page */
+.publication-img {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  padding-right: 3rem;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.publication-date {
+  font-size: 16px;
+  font-weight: 600;
+  background-color:#5e7fa0;
+}
+
+.publication-icon {
+  font-size: 28px;
+}
+
+.publication-name-link:hover {
+  text-decoration: underline;
+}
+
+.project-lead {
+  font-size: 16px;
+  font-weight: 600;
+  background-color: #995a5a;
+}
+
+.icon-facebook:hover {
+  color: #3b5998;
+}
+
+.icon-twitter:hover {
+  color: #55acee;
+}
+
+.icon-linkedin:hover {
+  color: #2867B2;
+}
+
+.person-pub {
+  background-color: #e0ebeb;
+  margin: 0 0 0 0;
+  border-radius: 0 2rem 2rem 0;
+  border-left: 1px solid #2F4F4F;
+}
+
+.person-pub-img {
+  min-height: 2.5rem;
+  min-width: 2.5rem;
+  background-size:cover;
+  background-position:center;
+}
+
+.tag {
+  padding: 0px 6px 1px 6px;
+  margin: 2px;
+  background-color: #e0ebeb;
+}
+
+/* Funding */
+
+.funding-card {
+  padding: 0;
+  margin: 2px;
+}
+
+.funding-card .card-body{
+  padding: 1rem;
+  margin: 2px;
+}
+
+.funding-card:hover {
+  border: 1px solid #2F4F4F;
+  background-color: #e0ebeb;
+}
+
+/* Address */
+
+.google-map {
+  width:100%;
+  height: 500px;
+}
+
+/* media queries */
+@media (max-width: 767px) {
+  .hide-in-small {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .hide-in-large {
+    display: none;
+  }
+}
+
+@media (min-width: 767px) {
+  span .line-break {
+    display: block;
+  }
+}

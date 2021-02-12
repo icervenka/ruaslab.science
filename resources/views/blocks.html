@@ -1,0 +1,195 @@
+{% macro network_card_profile(svg_class, img, profile_img, first_name, surname, position, address, email) %}
+<div class="network-card {{ svg_class }}">
+  <div class="p-sm-2 py-2 px-0">
+    <div class="card profile-card shadow-sm">
+      <div class="card-img-block">
+        <img class="img-fluid" src="/img/{{ img }}" alt="Profile background">
+      </div>
+      <div class="card-body">
+        <img src="/img/{{ profile_img }}" alt="Profile image" class="profile">
+        <h5 class="card-title text-center">
+          <span>{{ first_name}}
+            <span class="line-break">{{ surname }}</span>
+          </span>
+        </h5>
+        <p class="text-center m-0">{{ position }}</p>
+        <hr>
+        <div class="text-center">
+          <div class="col-12">
+            <p><i class="fa fa-map-marker-alt"></i>
+              {{ address }}
+          </div>
+          <div class="col-12">
+            <i class="fa fa-envelope"></i>
+            {{ email }}
+          </div>
+        </div>
+        <hr>
+      </div>
+    </div>
+  </div>
+</div>
+{% endmacro %}
+
+{% macro network_card_text(svg_class, header, text) %}
+<div class="network-card {{ svg_class }}">
+  <div class="p-sm-2 py-2 px-0">
+    <div class="card profile-card shadow-sm card-body">
+      <h5 class="card-title text-center">
+        {{ header }}
+      </h5>
+      <hr>
+      <p class="text-justify">
+        {{ text }}
+      </p>
+    </div>
+  </div>
+</div>
+{% endmacro %}
+
+{% macro network_card_carousel(id, profile_img, first_name, surname, position, address, email, title) %}
+<div class="carousel-item" id="{{ id }}">
+  <div class="p-0 rounded border border-dark bg-white">
+    <div class="row no-gutters">
+      <div class="h-100" style="max-width: 105px;">
+        <img class="rounded img-fluid" src="/img/{{ profile_img }}" alt="Profile Image">
+      </div>
+      <div class="py-1 px-2">
+        <b>{{ first_name }} {{ surname }}</b><br>
+        {{ address }}<br>
+        {{ email }}<br>
+        {{ title }}
+      </div>
+    </div>
+  </div>
+</div>
+{% endmacro %}
+
+{% macro mission_card(icon, heading, text) %}
+<div class="col-md-4 d-flex">
+  <div class="card mission-card shadow-sm m-1">
+    <i class="fa {{ icon }} text-center pt-4"></i>
+    <div class="card-body">
+      <h5 class="card-title text-center">{{ heading }}</h5>
+      <p class="card-text text-center">{{ text }}</p>
+    </div>
+  </div>
+</div>
+{% endmacro %}
+
+{% macro project_footer(project) %}
+<div class="row no-gutters">
+  <div class="container p-0 text-muted">
+    <hr>
+    <div class="flex-row no-gutter d-flex justify-content-between">
+      <div>By {{ project.author }}</div>
+      <div class="d-inline-flex flex-wrap">
+        {% for tag in project.tags %}
+        <a href="{{ url_for('tags', tag=tag.name) }}">
+          <div class="tag rounded">{{ tag.name }}</div>
+        </a>
+        {% endfor %}
+      </div>
+      <div>
+        <a href="#"><i class="fab fa-facebook-square publication-icon icon-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter-square publication-icon icon-twitter"></i></a>
+        <a href="#"><i class="fab fa-linkedin publication-icon icon-linkedin"></i></a>
+      </div>
+    </div>
+    <hr>
+  </div>
+</div>
+{% endmacro %}
+
+{% macro display_project(project) %}
+<div class="row no-gutters py-3">
+  <div class="col-lg-2 col-md-2 col-sm-12 text-center px-md-2">
+    {% if project.completion == 100 %}
+    <div class="py-2 text-white rounded publication-date">
+      <span>{{ project.pubdate_month }} <span class="line-break">{{ project.pubdate_year }}</span></span>
+    </div>
+    {% else %}
+    <div class="py-2 text-white rounded project-lead">
+      <span>
+        {{ project.author }}
+      </span>
+    </div>
+    {% endif %}
+  </div>
+  <div class="publication col-lg-10 col-md-10 col-12">
+    <div class="px-md-4 pt-3 py-md-0">
+      <h4 class="px-0 px-md-2">{{ project.layman_title }}</h4>
+      <div class="row no-gutters">
+
+        <div class="flex col-lg-5 col-12 pt-3 px-0 px-md-2">
+          <div class="publication-img rounded" style="background-image:url('/img/paper1.jpg')" alt=""></div>
+        </div>
+        <div class="flex col-lg-7 col-12 text-justify">
+          <div class="pt-3 px-0 px-md-2">
+            {% if project.completion != 100 %}
+            <div class="row no-gutters pb-3">
+              <div class="col-10">
+                <span class="skill-text">Completed</span>
+                <div class="progress">
+                  <div class="progress-bar bg-skill-progress-1" role="progressbar" style="width: {{ project.completion }}%;" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="col-2 text-right skill-percentage">
+                <span class="skill-text">{{ project.completion }}%</span>
+              </div>
+            </div>
+            {% endif %}
+            <p>{{ project.layman_abstract }}</p>
+
+            <div class="text-right">
+              <a href="{{ url_for('project', project_title=project.layman_title) }}">
+                <button type="button" class="btn rounded-pill btn-more justify-right">
+                  <span>Read More </span>
+                </button>
+              </a>
+            </div>
+
+          </div>
+        </div>
+      </div>
+      {{ project_footer(project) }}
+    </div>
+  </div>
+</div>
+{% endmacro %}
+
+{% macro display_project_badge(project) %}
+<div class="col-12 px-0">
+  <a href=" {{ url_for('project', project_title=project.layman_title) }}">
+    <div class="d-flex flex-row person-pub m-1 align-middle">
+      <div class="p-1">
+        <div class="person-pub-img h-100" style="background-image:url('/img/paper5.jpg')"></div>
+      </div>
+      <div class="pl-1 pr-2">
+        <div>{{ project.layman_title}}</div>
+        <div class="text-muted hide-in-small">
+          {% if project.completion == 100 %}
+          {{ project.bibliography}}
+          {% else %}
+          Completion: {{ project.completion  }}%
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </a>
+</div>
+{% endmacro %}
+
+
+{% macro display_profile_badge(person, color) %}
+<div class="profile-badge shadow-sm" style="background-color: {{ color }};">
+  <a href="{{ url_for('person', person_surname=person.surname)}}">
+    <div class="profile-img">
+      <img src="/img/thumb_{{ person.photo }}.jpg">
+    </div>
+    <div class="profile-text text-white">
+      <p>{{ person.first_name }} <br>{{ person.surname }}</p>
+    </div>
+  </a>
+</div>
+{% endmacro %}
