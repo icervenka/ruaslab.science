@@ -9,15 +9,7 @@
 @section('page_content')
 <section class="container-fluid">
   <div class="container px-0">
-    <p class="text-justify pt-3">Physical activity and muscle condition play a clear
-      and important role in the prevention and treatment of these diseases.
-      However, exercise programs are not always viable treatment options
-      due to inherent disease characteristics such as muscle weakness,
-      difficulty in movement, or, in particular, patient compliance.
-      By understanding the mechanisms through which our bodies adapt to
-      exercise, we can learn valuable lessons that can be translated
-      into future disease therapies.</p>
-
+    
     <div class="py-2 px-0, px-md-2">
       <img class="img-fluid rounded" src={{ URL::asset('images/group_photo.jpg') }} alt="Group photo" />
     </div>

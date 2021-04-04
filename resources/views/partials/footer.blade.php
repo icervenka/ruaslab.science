@@ -4,42 +4,48 @@
       <div class="col-lg-3 col-xs-12">
         <div class="px-3">
           <h4>About Us</h4>
-          <p><em>Malesuada nunc vel risus commodo viverra maecenas accumsan lacus.
-              Nunc consequat interdum varius sit. Amet nulla facilisi morbi tempus
-              iaculis. Curabitur vitae nunc sed velit dignissim sodales ut eu. Nibh
-              tellus molestie nunc non blandit.</em></p>
+          <p><em>Since 2011 we research to discover the molecules that mediate the
+            beneficial effects of physical activity and exercise to human health.</em></p>
         </div>
       </div>
       <div class="col-lg-3 col-6">
         <div class="px-3">
           <h4>Contact</h4>
-          <div class="row">
+          <div class="row pb-1">
             <div class="col-2">
               <i class="fa fa-map-marker-alt"></i>
             </div>
             <div>
-              <p>Biomedicum<br>
+              <span>Biomedicum<br>
                 Quarter C5<br>
                 Solnavägen 9<br>
                 171 65 Solna <br>
                 Sweden
-              </p>
+              </span>
             </div>
           </div>
-          <div class="row">
+          <div class="row pb-1">
             <div class="col-2">
               <i class="fa fa-envelope"></i>
             </div>
             <div>
-              <p>Jorge.Ruas(at)ki.se</p>
+              <span>Jorge.Ruas(at)ki.se</span>
             </div>
           </div>
-          <div class="row">
+          <div class="row pb-1">
             <div class="col-2">
               <i class="fa fa-phone"></i>
             </div>
             <div>
-              <p>+46(0)852487261</p>
+              <span>+46(0)852487261</span>
+            </div>
+          </div>
+          <div class="row pb-1">
+            <div class="col-2">
+              <i class="fab fa-twitter"></i>
+            </div>
+            <div>
+              <span>@ruaslab</span>
             </div>
           </div>
         </div>

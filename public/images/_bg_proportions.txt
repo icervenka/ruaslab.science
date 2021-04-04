@@ -1,4 +1,0 @@
-original:
-2250x1500
-thumb:
-500x...

@@ -30,13 +30,13 @@ class ProjectController extends Controller
       // divide into from lab or collab
       $pubs = Project::where('completion', '=', 100);
       return view('publications', [
-        'pubs_lab' => $pubs->where('is_from_lab', '=', 1)->get(),
+        'pubs_lab' => $pubs->where('is_from_lab', '=', 1)->orderBy('pubdate_year', 'DESC')->get(),
         'pubs_collab' => $pubs->where('is_from_lab', '=', 0)->get(),
       ]);
     }
 
     public function project_details($title) {
-      $project_details = Project::where('layman_title', '=', $title)->first();
+      $project_details = Project::where('layman_title_slug', '=', $title)->first();
       $leads =  $project_details->leads()->get();
       $contribs = $project_details->contributors()->get();
       return view('project', [

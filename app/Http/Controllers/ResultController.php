@@ -17,7 +17,8 @@ class ResultController extends Controller
     // TODO maybe order by something
     $projects = Tag::where('name', '=', $tag)->first()->projects()->get();
     return view('results', [
-      'projects' => $projects
+      'projects' => $projects,
+      'tag' => $tag
     ]);
   }
 }

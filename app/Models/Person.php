@@ -16,11 +16,14 @@ class Person extends Model
 
     public function skills()
     {
-      return $this->belongsToMany(Skill::class, 'person_skill');
+      return $this->hasMany(Skill::class);
     }
 
     public function trivia() {
-      return $this->belongsToMany(Trivia::class);
+      return $this->hasMany(Trivia::class);
     }
 
+    public function links() {
+      return $this->hasMany(Link::class);
+    }
 }

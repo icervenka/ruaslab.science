@@ -16,19 +16,24 @@ class CreateProjectsTable extends Migration
         Schema::create('projects', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->timestamps();
-            $table->string('image');
+            $table->string('bg_image');
             $table->string('author');
             $table->string('layman_title');
+            $table->string('layman_title_slug');
+            $table->string('layman_abstract_highlight');
             $table->text('layman_abstract');
             $table->string('graph_abstract');
             $table->integer('is_from_lab');
+            $table->integer('type');
             $table->integer('completion');
             $table->string('pubdate_month')->nullable();
+            $table->integer('pubdate_month_num')->nullable();
             $table->integer('pubdate_year')->nullable();
             $table->string('title')->nullable();
             $table->string('author_list')->nullable();
             $table->string('bibliography')->nullable();
             $table->string('pubmed_link')->nullable();
+            $table->string('doi')->nullable();
         });
     }
 

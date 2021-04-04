@@ -1,7 +1,7 @@
 @extends('page_template')
 
 @section('page_header')
-{{ URL::asset('images/page_header_publications.jpg') }}
+{{ URL::asset('images/'.$project->bg_image) }}
 @endsection
 
 @section('page_title', $project->layman_title)
@@ -15,12 +15,12 @@
     <div class="row no-gutters">
       <div class="col-lg-6 col-sm-12">
         <div class="py-2 pr-md-2">
-          <img class="img-fluid" src={{ URL::asset('images/gpr35_graphical_abstract.jpg') }} alt="">
+          <img class="img-fluid" src={{ URL::asset('images/'.$project->graph_abstract) }} alt="">
         </div>
       </div>
       <div class="col-lg-6 col-sm-12">
         <div class="pl-md-2 pt-2 pb-4">
-        <p class="text-justify">{{$project->layman_abstract}}</p>
+        <p class="text-justify">{!!$project->layman_abstract!!}</p>
         <div class="px-3 border-left border-dark">
           @if($project->completion == 100)
           <a href="{{$project->pubmed_link}}" target="_blank">

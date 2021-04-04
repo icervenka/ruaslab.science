@@ -16,15 +16,9 @@
   <link rel="icon" type="image/png" href="{{ URL::asset('favicon.ico') }}" sizes="32x32"/>
 </head>
 
-<style media="screen">
-  header {
-    opacity: 0.25;
-  }
-</style>
 
 <body class="px-0">
   @include('partials.navbar')
-
 
   <main>
 
@@ -32,7 +26,8 @@
       <div class="row">
         <div class="hero-image vh-100">
           <div class="hero-text text-left">
-            <h2 class="pb-2">Have you ever wondered how exercise keeps you healthy?</h2>
+            <h2 class="pb-2">Exercise is Medicine!</h2>
+            <h5 class="pb-2"><em>Help us find out how it works to develop new treatments for disease</em></h5>
             <a href={{ url('projects') }}>
               <button type="button" class="btn btn-lg rounded-pill btn-light mr-2 mb-2">
                 Explore Our Work
@@ -68,24 +63,24 @@
           </div>
           <div class="col-12 col-md-6 order-1 order-md-1">
             <div class="p-md-5 p-0 pt-1">
-              <p class="text-justify">Sedentary lifestyles come at a high cost to our health
-                and have been linked to the incidence of diseases such as diabetes,
-                obesity, cardiovascular disease, neuro-degenerative diseases
-                (Alzheimer’s and Parkinson’s), mood disorders (e.g. depression),
-                and even cancer.</p>
+                <p><b>Staying physically active is the key to  healthy ageing. But why?</p></b>
+                <p class="text-justify"> Sedentary lifestyles with low levels of
+                  physical activity come at a high cost to our health and have
+                  been linked to the incidence of diseases such as diabetes,
+                  obesity, cardiovascular disease, neuro-degenerative diseases
+                  (Alzheimer’s and Parkinson’s), mood disorders (e.g. depression),
+                  and even cancer.</p>
             </div>
           </div>
 
           <div class="col-12 col-md-6 order-3 order-md-2">
             <div class="p-md-5 p-0 pt-1">
-              <p class="text-justify">Physical activity and muscle condition play a clear
-                and important role in the prevention and treatment of these diseases.
-                However, exercise programs are not always viable treatment options
-                due to inherent disease characteristics such as muscle weakness,
-                difficulty in movement, or, in particular, patient compliance.
-                By understanding the mechanisms through which our bodies adapt to
-                exercise, we can learn valuable lessons that can be translated
-                into future disease therapies.</p>
+              <p><b>When you exercise, your muscles produce substances with important health benefits!</p></b>
+              <p class="text-justify"> Physical exercise and muscle condition play
+                an important role in disease prevention and treatment. In part
+                because you use excess energy stored in your body, and in part
+                because contracting muscles release factors (myokines) that
+                promote a healthy mind and a healthy body.</p>
             </div>
           </div>
 
@@ -94,18 +89,17 @@
           </div>
 
           <div class="col-12 col-md-6 order-4 order-md-4">
-            <div class="cover h-100" style="background-image:url({{ URL::asset('images/index_whoweare_4.jpg') }});"></div>
+            <div class="cover h-100" style="background-image:url({{ URL::asset('images/index_whoweare_5.jpg') }});"></div>
           </div>
           <div class="col-12 col-md-6 order-5 order-md-5">
             <div class="p-md-5 p-0 pt-1">
-              <p class="text-justify">Physical activity and muscle condition play a clear
-                and important role in the prevention and treatment of these diseases.
-                However, exercise programs are not always viable treatment options
-                due to inherent disease characteristics such as muscle weakness,
-                difficulty in movement, or, in particular, patient compliance.
-                By understanding the mechanisms through which our bodies adapt to
-                exercise, we can learn valuable lessons that can be translated
-                into future disease therapies.</p>
+              <p><b>We want to help create exercise-based therapeutics</p></b>
+              <p class="text-justify">By understanding the mechanisms through
+                which our bodies adapt to exercise, we can learn valuable lessons
+                that can be translated into future disease therapies. Our
+                laboratory is dedicated to discovering what are the key molecules
+                that mediate the beneficial effects of exercise, and in help
+                creating future exercise-based medications.</p>
             </div>
           </div>
         </div>
@@ -126,15 +120,10 @@
 
         <div class="row no-gutters">
           <div class="col-12">
-            <h1 class="text-center">METABOLIC NETWORK</h1>
-            <p class="text-justify">Physical activity and muscle condition play a clear
-              and important role in the prevention and treatment of these diseases.
-              However, exercise programs are not always viable treatment options
-              due to inherent disease characteristics such as muscle weakness,
-              difficulty in movement, or, in particular, patient compliance.
-              By understanding the mechanisms through which our bodies adapt to
-              exercise, we can learn valuable lessons that can be translated
-              into future disease therapies.</p>
+            <h1 class="text-center">OUR COLLABORATORS</h1>
+            <p class="text-justify">Exercise affects the entire body. To efficiently
+              develop our research projects, we collaborate with national and
+              international specialists on different tissues and organs.</p>
           </div>
         </div>
 
@@ -195,19 +184,10 @@
         <div class="row no-gutters">
           <div class="col-12">
             <h1 class="text-center">WHY SUPPORT US</h1>
-            <p class="text-justify">Sedentary lifestyles come at a high cost to our health
-              and have been linked to the incidence of diseases such as diabetes,
-              obesity, cardiovascular disease, neuro-degenerative diseases
-              (Alzheimer’s and Parkinson’s), mood disorders (e.g. depression),
-              and even cancer.</p>
-            <p class="text-justify">Physical activity and muscle condition play a clear
-              and important role in the prevention and treatment of these diseases.
-              However, exercise programs are not always viable treatment options
-              due to inherent disease characteristics such as muscle weakness,
-              difficulty in movement, or, in particular, patient compliance.
-              By understanding the mechanisms through which our bodies adapt to
-              exercise, we can learn valuable lessons that can be translated
-              into future disease therapies.</p>
+            <p class="text-justify">As an academic research laboratory, it is often
+              difficult to secure all the resources necessary to fully develop
+              our ideas to the point of exploring their therapeutic potential.</p>
+            <h2 class="text-center">YOU CAN HELP US BUILD THE FUTURE OF EXERCISE-BASED THERAPEUTICS</h2>
           </div>
         </div>
         <div class="text-right">
@@ -256,19 +236,10 @@
       <div class="container px-0">
 
         <div class="row no-gutters">
-          <div class="col-12">
+          <div class="col-12 pb-3">
             <h1 class="text-center">OUR STUDIES</h1>
           </div>
-          <p class="text-justify">Physical activity and muscle condition play a clear
-            and important role in the prevention and treatment of these diseases.
-            However, exercise programs are not always viable treatment options
-            due to inherent disease characteristics such as muscle weakness,
-            difficulty in movement, or, in particular, patient compliance.
-            By understanding the mechanisms through which our bodies adapt to
-            exercise, we can learn valuable lessons that can be translated
-            into future disease therapies.</p>
         </div>
-
         <div id="carousel-1" class="carousel slide px-0" data-ride="carousel">
           <div class="carousel-inner rounded">
             @each('partials.carousel', $paper_carousel, 'item')

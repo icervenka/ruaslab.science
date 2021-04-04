@@ -1,11 +1,10 @@
 <div class="network-card {{ $item->svg_class }}">
   <div class="p-sm-2 py-2 px-0">
-    <div class="card profile-card shadow-sm">
+    <div class="card shadow-sm">
       <div class="card-img-block">
         <img class="img-fluid" src={{  URL::asset('images/'.$item->bg_image) }} alt="Profile background">
       </div>
       <div class="card-body">
-        <img src={{  URL::asset('images/'.$item->profile_image) }} alt="Profile image" class="profile">
         <h5 class="card-title text-center">
           <span>{{  $item->first_name }}
             <span class="line-break">{{  $item->surname }}</span>

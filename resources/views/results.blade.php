@@ -4,7 +4,7 @@
 {{ URL::asset('images/page_header_tags.jpg') }}
 @endsection
 
-@section('page_title', 'RESULTS')
+@section('page_title', $tag)
 
 @section('page_content')
 <section class="container-fluid">
@@ -18,4 +18,5 @@
 </section>
 
 <hr class="hr-divider">
+<script type="text/javascript" src="//cdn.plu.mx/widget-popup.js"></script>
 @endsection

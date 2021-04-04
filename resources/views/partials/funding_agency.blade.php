@@ -3,14 +3,11 @@
     <a href="{{ $agency->link }}" target="_blank">
       <img class="card-img-top" src={{ URL::asset("images/".$agency->img)}} alt="Agency Logo">
       <div class="card-body text-center">
-        <h5 class="card-title">{{ $agency->type }}</h5>
+        <h5 class="card-title">{{ $agency->name }}</h5>
         <p class="card-text">{{ $agency->year_start }} - {{ $agency->year_end }}</p>
         <hr>
         <p class="card-text">
-          <em>By</em> {{ $agency->agency }}<br>
-          <em>To</em> {{ $agency->awardee }}<br>
-          <em>For</em> <b>{{ $agency->name }}</b><br>
-          {{ $agency->sum }} {{ $agency->currency }}<br>
+          <b>{{ $agency->type }}</b><br>
         </p>
       </div>
     </a>
