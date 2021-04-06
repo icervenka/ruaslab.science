@@ -25,9 +25,9 @@ class CreatePeopleTable extends Migration
             $table->string('position');
             $table->string('address_city');
             $table->string('address_state');
-            $table->text('bio_text');
-            $table->text('quote_text');
-            $table->string('quote_source');
+            $table->text('bio_text')->nullable();
+            $table->text('quote_text')->nullable();
+            $table->string('quote_source')->nullable();
         });
     }
 

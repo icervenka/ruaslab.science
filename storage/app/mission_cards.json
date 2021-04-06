@@ -1,0 +1,19 @@
+{
+  "cards" : [
+    {
+      "icon" : "fa-bicycle",
+      "header": "Metabolism and Exercise",
+      "text" : "How do tissues such as muscle, liver, and fat produce, use, or store energy to function in health and during metabolic diseases?"
+    },
+    {
+      "icon" : "fa-cogs",
+      "header": "Muscle mass & function",
+      "text" : "What are the pathways that maintain adequate muscle mass, strength and recovery that are dysregulated in many diseases?"
+    },
+    {
+      "icon" : "fa-rss",
+      "header": "Inter-organ communication",
+      "text" : "Identifying the molecular mediators of the beneficial effects of physical exercise, and developing as a novel generation of therapeutics."
+    }
+  ]
+}

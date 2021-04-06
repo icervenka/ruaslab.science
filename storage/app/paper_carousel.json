@@ -1,0 +1,34 @@
+{
+  "papers" : [
+    {
+      "image" : "paper1.jpg",
+      "header": "How muscles get bigger",
+      "text" : "Resistance training favours novel PGC-1a gene variant we linked to muscle growth and strength. Finding ways to selectively increase these PGC-1a variants could help patients with muscle weakness",
+      "layman_title_slug": "bodybuilder-or-marathon-runner-it-all-comes-down-to-one-gene"
+    },
+    {
+      "image" : "paper2.jpg",
+      "header": "Exercise as a cure for depression",
+      "text" : "If you train your muscles, they acquire the capacity to filter out of the blood a molecule called kynurenine that increases under stress and accumulates in the brain",
+      "layman_title_slug": "exercise-prevents-stress-induced-depression"
+    },
+    {
+      "image" : "paper3.jpg",
+      "header": "More bang for the buck",
+      "text" : "In this paper we describe a new mechanism that allows muscle to become more energy efficient as you perform endurance training, all the while using neurotoxic molecule (kynurenine) as fuel.",
+      "layman_title_slug": "how-muscle-uses-kynurenine-clearance-to-optimize-energy-production"
+    },
+    {
+      "image" : "paper4.jpg",
+      "header": "New molecules to help with fat loss",
+      "text" : "We report the discovery of several chemical compounds that increase PGC-1α levels in fat cell cultures in the lab, and increase their energy expenditure",
+      "layman_title_slug": "searching-for-chemical-that-would-help-us-lose-fat"
+    },
+    {
+      "image" : "paper5.jpg",
+      "header": "Making brain to muscle connections",
+      "text" : "We identified a molecule called Neurturin, that is released from muscle and encourages motor neurons to stay connected to muscle. This finding could have implications in diseases such as ALS",
+      "layman_title_slug": "how-brain-makes-muscle-move-and-vice-versa"
+    }
+  ]
+}

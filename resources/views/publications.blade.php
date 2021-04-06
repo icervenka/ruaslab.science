@@ -19,7 +19,7 @@
 
     <div class="py-3">
     <a href="https://scholar.google.com/citations?hl=en&user=c6NQ9FMAAAAJ">
-      <button type="button" class="btn btn-block rounded-pill btn-more">
+      <button type="button" class="btn btn-block rounded-pill btn-more py-2">
         LIST OF ALL PUBLICATIONS <i class="fas fa-external-link-alt"></i>
       </button>
     </a>

@@ -1,0 +1,70 @@
+{
+  "members" : [
+    {
+      "svg_class" : "heart",
+      "first_name": "Pasi",
+      "surname" : "Tavi",
+      "position" : "Professor",
+      "address" : "Kuopio, Finland",
+      "email" : "Pasi.Tavi@uef.fi",
+      "bg_image" : "network_uef.jpg",
+      "title" : "Heart",
+      "text" : "Heart muscle can grow during most of the lifespan and it has significant capability of adaptation and plasticity. An increase in the work load (preload and/or afterload) and activity (heart rate) control the growth and properties of the muscle cells. These mechanisms form the basis of the extreme plasticity of cardiac muscle."
+    },
+    {
+      "svg_class" : "brain",
+      "first_name": "Joao",
+      "surname" : "Duarte",
+      "position" : "Associate senior lecturer",
+      "address" : "Lund, Sweden",
+      "email" : "joao.duarte@med.lu.se",
+      "bg_image" : "network_lund.jpg",
+      "title" : "Brain",
+      "text" : "We currently focus on the understanding early metabolic dysfunction that might precede and be involved in the diabetes-induced neurodegenerative process, especially insulin-dependent metabolic regulation in neurons and astrocytes."
+    },
+    {
+      "svg_class" : "muscle",
+      "first_name": "Johanna",
+      "surname" : "Lanner",
+      "position" : "Associate professor",
+      "address" : "Stockholm, Sweden",
+      "email" : "johanna.lanner@ki.se",
+      "bg_image" : "network_biomedicum.jpg",
+      "title" : "Muscle",
+      "text" : "Our lab focuses on deciphering the molecular mechanisms that contributes to disease-induced muscle dysfunction and identifying novel therapeutic interventions to counteract muscle weakness. Altered Ca2+ handling, free radical signaling and mitochondrial function are key factors in the intramuscular interplay that may contribute to impaired muscle function and hence central components in our research."
+    },
+    {
+      "svg_class" : "liver",
+      "first_name": "Myriam",
+      "surname" : "Aouadi",
+      "position" : "Associate Professor",
+      "address" : "Stockholm, Sweden",
+      "email" : "myriam.aouadi@ki.se",
+      "bg_image" : "network_huddinge.jpg",
+      "title" : "Liver",
+      "text" : "Since the discovery of macrophages in adipose tissue, many laboratories have focused their effort on understanding the contribution of these immune cells to metabolic diseases. Despite great progress in characterizing obesity as a state of low-grade inflammation, very little is known about the multiple phenotypes and functions of macrophages in metabolic tissues. Our lab takes advantage of sophisticated methods to investigate macrophage subpopulations and their function in obesity-associated metabolic complications."
+    },
+    {
+      "svg_class" : "fat",
+      "first_name": "Martin",
+      "surname" : "Jastroch",
+      "position" : "Associate Professor",
+      "address" : "Stockholm, Sweden",
+      "email" : "martin.jastroch@su.se",
+      "bg_image" : "network_stockholm_university.jpg",
+      "title" : "Adipose tissue",
+      "text" : "Our research integrates research on whole animal metabolism with cellular and mitochondrial bioenergetics, aiming to identify molecular mechanisms and their significance for systemic energy homeostasis and metabolic disease."
+    },
+    {
+      "svg_class" : "cogs",
+      "first_name": "Jorge",
+      "surname" : "Ruas",
+      "position" : "Professor",
+      "address" : "Stockholm, Sweden",
+      "email" : "Jorge.Ruas@ki.fi",
+      "bg_image" : "network_biomedicum.jpg",
+      "title" : "Inter-Organ Communication",
+      "text" : "The common goal of the projects being developed in our laboratory is to better understand the signal transduction and gene regulatory pathways that control skeletal muscle function in health and disease. With this knowledge, we aim at developing strategies that can be used as possible therapeutic avenues for the treatment of metabolic and degenerative diseases. We are particularly interested in understanding how exercised or sedentary skeletal muscle can crosstalk with other organs, and how it can affect individual health and disease."
+    }
+  ]
+}

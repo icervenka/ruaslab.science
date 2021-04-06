@@ -5,16 +5,18 @@
       <span>{{ $project->pubdate_month }} <span class="line-break">{{ $project->pubdate_year }}</span></span>
     </div>
     @else
-    <div class="py-2 text-white rounded project-lead">
-      <span>
-        {{ $project->author }}
-      </span>
-    </div>
+    <a href={{ route('person', $project->author_surname) }}>
+      <div class="py-2 text-white rounded project-lead">
+        <span>
+          {{ $project->author }}
+        </span>
+      </div>
+    </a>
     @endif
   </div>
   <div class="publication col-lg-10 col-md-10 col-12">
     <div class="px-md-4 pt-3 py-md-0">
-      <a href="{{ route('project', $project->layman_title_slug) }}">
+      <a href={{ route('project', $project->layman_title_slug) }}>
         <h4 class="px-0 px-md-2">
           {{ $project->layman_title }}
         </h4>

@@ -1,0 +1,148 @@
+{
+  "agencies" : [
+    {
+      "name" : "To research the causes and effects of fatty liver disease",
+      "img" : "logo_DF.png",
+      "type" : "Novo Nordisk Foundation Ascending Investigator in Endocrinology and Metabolism ",
+      "agency" : "Novo Nordisk",
+      "year_start" : "2019",
+      "year_end" : "2024",
+      "link" : "https://www.diabetes.se/diabetesfonden"
+    },
+    {
+      "name" : "To study how muscle changes in size and strength with disease or exercise",
+      "img" : "logo_VR.png",
+      "type" : "Swedish Research Council Consolidator Grant",
+      "agency" : "Swedish Research Council",
+      "year_start" : "2017",
+      "year_end" : "2022",
+      "link" : "https://www.vr.se/"
+    },
+    {
+      "name" : "To identify molecules that improve muscle function",
+      "img" : "logo_NN.png",
+      "type" : "Novo Nordisk Foundation project grant",
+      "agency" : "Novo Nordisk Foundation",
+      "year_start" : "2017",
+      "year_end" : "2019",
+      "link" : "https://www.novonordisk.com/"
+    },
+    {
+      "name" : "To recruit a postdoc to the team",
+      "img" : "logo_NN.png",
+      "type" : "Novo Nordisk – KI Postdoctoral Fellowship",
+      "agency" : "Novo Nordisk Foundation",
+      "year_start" : "2016",
+      "year_end" : "2018",
+      "link" : "https://www.novonordisk.com/"
+    },
+    {
+      "name" : "To find novel antidiabetic therapies",
+      "img" : "logo_SRP.png",
+      "type" : "Rolf Luft Grant for Basic Research",
+      "agency" : "Strategic Research Program in Diabetes at KI",
+      "year_start" : "2016",
+      "year_end" : "2020",
+      "link" : "https://ki.se/en/srp-diabetes/strategic-research-programme-in-diabetes-srp-diabetes"
+    },
+    {
+      "name" : "Senior Researcher",
+      "img" : "logo_KI.png",
+      "type" : "Karolinska Institutet’s Faculty Funded Career Position",
+      "agency" : "Karolinska Institutet",
+      "year_start" : "2017",
+      "year_end" : "2021",
+      "link" : "https://ki.se/"
+    },
+    {
+      "name" : "To identify new regulators of muscle function",
+      "img" : "logo_VR.png",
+      "type" : "Swedish Research Council Project Grant",
+      "agency" : "Swedish Research Council",
+      "year_start" : "2015",
+      "year_end" : "2018",
+      "link" : "https://www.vr.se/"
+    },
+    {
+      "name" : "2-year extension of Assistant Professorship",
+      "img" : "logo_KI.png",
+      "type" : "Karolinska Institutet’s Faculty Funded Career Position",
+      "agency" : "Karolinska Institutet",
+      "year_start" : "2015",
+      "year_end" : "2026",
+      "link" : "https://ki.se/"
+    },
+    {
+      "name" : "To investigate what signals organs use to communicate",
+      "img" : "logo_HFSP.png",
+      "type" : "Human Frontier Science Program Young Investigator Grant Award",
+      "agency" : "Karolinska Institutet",
+      "year_start" : "2014",
+      "year_end" : "2016",
+      "link" : "https://www.hfsp.org/"
+    },
+    {
+      "name" : "To study liver metabolism",
+      "img" : "logo_DW.png",
+      "type" : "Diabetes Wellness Network Sweden Project Grant",
+      "agency" : "Diabetes Wellness",
+      "year_start" : "2014",
+      "year_end" : "2015",
+      "link" : "https://www.diabeteswellness.net/"
+    },
+    {
+      "name" : "",
+      "img" : "logo_LP.png",
+      "type" : "Lennart Philipson Prize & Grant in Biomedical Research",
+      "agency" : "Malin and Lennart Philipson Foundation",
+      "year_start" : "2014",
+      "year_end" : "2015",
+      "link" : "#"
+    },
+    {
+      "name" : "To study the molecules that allow muscle to adapt to exercise",
+      "img" : "logo_NN.png",
+      "type" : "Excellence Project Award in Endocrinology and Metabolism",
+      "agency" : "Novo Nordisk Foundation",
+      "year_start" : "2012",
+      "year_end" : "2016",
+      "link" : "https://www.novonordisk.com/"
+    },
+    {
+      "name" : "To help start the lab when moving back from the USA to Sweden",
+      "img" : "logo_MC.png",
+      "type" : "Marie Curie Career Integration Grant",
+      "agency" : "Marie Curie Actions",
+      "year_start" : "2012",
+      "year_end" : "2015",
+      "link" : "https://ec.europa.eu/research/mariecurieactions/"
+    },
+    {
+      "name" : "Exploring Future Anti-diabetic Targets",
+      "img" : "logo_DF.png",
+      "type" : "Swedish Diabetes Research Foundation Grant",
+      "agency" : "Diabetesfonden",
+      "year_start" : "2014",
+      "year_end" : "2015",
+      "link" : "https://www.diabetes.se/diabetesfonden"
+    },
+    {
+      "name" : "Young Investigator Award in Diabetes",
+      "img" : "logo_SRP.png",
+      "type" : "Strategic Research Programme in Diabetes",
+      "agency" : "Strategic Research Program in Diabetes at KI",
+      "year_start" : "2011",
+      "year_end" : "2014",
+      "link" : "https://ki.se/en/srp-diabetes/strategic-research-programme-in-diabetes-srp-diabetes"
+    },
+    {
+      "name" : "To go abroad for postdoctoral studies and come back to Sweden to start a lab",
+      "img" : "logo_WG.png",
+      "type" : "Wenner-Gren Fellow",
+      "agency" : "Wenner-Gren Foundations",
+      "year_start" : "2006",
+      "year_end" : "2008",
+      "link" : "https://www.swgc.org/welcome.aspx"
+    }
+  ]
+}

@@ -170,11 +170,9 @@
     <div class="container-fluid">
       <div class="container px-0">
         <div class="text-right">
-          <a href="">
             <button type="button" class="btn btn-lg rounded-pill btn-more btn-more-up" style="opacity: 0">
               <span>Our Metabolic Network </span>
-            </button>
-          </a>
+            </button>  
         </div>
       </div>
     </div>

@@ -30,7 +30,7 @@ class ProjectController extends Controller
       // divide into from lab or collab
       $pubs = Project::where('completion', '=', 100);
       return view('publications', [
-        'pubs_lab' => $pubs->where('is_from_lab', '=', 1)->orderBy('pubdate_year', 'DESC')->get(),
+        'pubs_lab' => $pubs->where('is_from_lab', '=', 1)->orderBy('pubdate_year', 'DESC')->orderBy('pubdate_month_num', 'DESC')->get(),
         'pubs_collab' => $pubs->where('is_from_lab', '=', 0)->get(),
       ]);
     }

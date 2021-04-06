@@ -57,7 +57,7 @@
         </div>
 
         <hr>
-
+        @if ($person_data->quote_text)
         <div class="row no-gutters py-2">
           <div class="quote w-100">
             <p class="lead">
@@ -67,6 +67,7 @@
             <footer class="blockquote-footer">{{ $person_data->quote_source }}</footer>
           </div>
         </div>
+        @endif
 
         <div class="pt-2">
           <p class="text-justify">{!! $person_data->bio_text !!}</p>

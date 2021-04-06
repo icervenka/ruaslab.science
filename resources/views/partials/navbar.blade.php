@@ -23,6 +23,9 @@
             <a class="nav-link text-white" href="{{ url('funding') }}">Funding</a>
           </li>
           <li class="nav-item rounded">
+            <a class="nav-link text-white" href="{{ url('gallery') }}">Gallery</a>
+          </li>
+          <li class="nav-item rounded">
             <a class="nav-link text-white" href="{{ url('contactus') }}">Contact Us</a>
           </li>
         </ul>

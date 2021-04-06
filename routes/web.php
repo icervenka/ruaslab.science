@@ -37,6 +37,10 @@ Route::get('/funding', [FundingController::class, 'show'] );
 
 Route::get('/results/{tag}', [ResultController::class, 'show'] );
 
+Route::get('/gallery', function () {
+    return view('gallery');
+});
+
 Route::get('/contactus', function () {
     return view('contactus');
 });
