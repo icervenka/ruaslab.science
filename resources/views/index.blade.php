@@ -63,13 +63,10 @@
           </div>
           <div class="col-12 col-md-6 order-1 order-md-1">
             <div class="p-md-5 p-0 pt-1">
-                <p><b>Staying physically active is the key to  healthy ageing. But why?</p></b>
-                <p class="text-justify"> Sedentary lifestyles with low levels of
-                  physical activity come at a high cost to our health and have
-                  been linked to the incidence of diseases such as diabetes,
-                  obesity, cardiovascular disease, neuro-degenerative diseases
-                  (Alzheimer’s and Parkinson’s), mood disorders (e.g. depression),
-                  and even cancer.</p>
+              <p><b>We want to help create exercise-based therapeutics</p></b>
+              <p class="text-justify">Our laboratory is dedicated to discovering
+                what are the key molecules that mediate the beneficial effects of
+                exercise, and in help creating future exercise-based medications.</p>
             </div>
           </div>
 
@@ -93,13 +90,13 @@
           </div>
           <div class="col-12 col-md-6 order-5 order-md-5">
             <div class="p-md-5 p-0 pt-1">
-              <p><b>We want to help create exercise-based therapeutics</p></b>
-              <p class="text-justify">By understanding the mechanisms through
-                which our bodies adapt to exercise, we can learn valuable lessons
-                that can be translated into future disease therapies. Our
-                laboratory is dedicated to discovering what are the key molecules
-                that mediate the beneficial effects of exercise, and in help
-                creating future exercise-based medications.</p>
+              <p><b>Staying physically active is the key to  healthy ageing. But why?</p></b>
+              <p class="text-justify"> Sedentary lifestyles with low levels of
+                physical activity come at a high cost to our health and have
+                been linked to the incidence of diseases such as diabetes,
+                obesity, cardiovascular disease, neuro-degenerative diseases
+                (Alzheimer’s and Parkinson’s), mood disorders (e.g. depression),
+                and even cancer.</p>
             </div>
           </div>
         </div>
@@ -116,68 +113,6 @@
     <hr class="hr-divider">
 
     <section class="container-fluid index">
-      <div class="container px-0">
-
-        <div class="row no-gutters">
-          <div class="col-12">
-            <h1 class="text-center">OUR COLLABORATORS</h1>
-            <p class="text-justify">Exercise affects the entire body. To efficiently
-              develop our research projects, we collaborate with national and
-              international specialists on different tissues and organs.</p>
-          </div>
-        </div>
-
-        <div class="hide-in-small">
-          <div class="row no-gutters">
-
-            <div class="col-12 col-lg-3 col-md-3">
-              @each('partials.network_card_profile', $metabolic_network, 'item')
-            </div>
-
-            <div class="col-12 col-lg-6 col-md-6 text-center">
-              @include('network_svg')
-            </div>
-
-            <div class="col-12 col-lg-3 col-md-3">
-              @each('partials.network_card_text', $metabolic_network, 'item')
-            </div>
-
-          </div>
-        </div>
-
-        <div class="hide-in-large pb-3">
-          <div id="carousel-mt" class="carousel slide" data-ride="carousel">
-            <div class="carousel-inner">
-              @each('partials.network_card_carousel', $metabolic_network, 'item')
-            </div>
-            <a class="carousel-control-prev" href="#carousel-mt" role="button" data-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carousel-mt" role="button" data-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="sr-only">Next</span>
-            </a>
-          </div>
-
-        </div>
-
-      </div>
-    </section>
-
-    <hr class="hr-divider">
-
-    <div class="container-fluid">
-      <div class="container px-0">
-        <div class="text-right">
-            <button type="button" class="btn btn-lg rounded-pill btn-more btn-more-up" style="opacity: 0">
-              <span>Our Metabolic Network </span>
-            </button>  
-        </div>
-      </div>
-    </div>
-
-    <section class="container-fluid">
       <div class="container px-0">
         <div class="row no-gutters">
           <div class="col-12">

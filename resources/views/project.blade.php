@@ -51,15 +51,11 @@
       <div class="col-12">
         <div class="text-center">
 
-          <div class="badge-list-title">Project lead</div>
+          <div class="badge-list-title">Contributors</div>
           <div class="d-inline-flex flex-wrap">
             @foreach($leads as $person)
               @include('partials.profile_badge', array('person' => $person, 'color' => '#995a5a'))
             @endforeach
-          </div>
-
-          <div class="badge-list-title">Contributors</div>
-          <div class="d-inline-flex flex-wrap">
             @foreach($contribs as $person)
               @include('partials.profile_badge', array('person' => $person, 'color' => '#5e7fa0'))
             @endforeach

@@ -3,9 +3,11 @@
 use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\IndexController;
+use App\Http\Controllers\CollaboratorsController;
 use App\Http\Controllers\TeamController;
 use App\Http\Controllers\ProjectController;
 use App\Http\Controllers\FundingController;
+use App\Http\Controllers\GalleryController;
 use App\Http\Controllers\ResultController;
 
 /*
@@ -20,6 +22,8 @@ use App\Http\Controllers\ResultController;
 */
 
 Route::get('/', [IndexController::class, 'show']);
+
+Route::get('/collaborators', [CollaboratorsController::class, 'show']);
 
 Route::get('/team', [TeamController::class, 'team']);
 
@@ -37,12 +41,32 @@ Route::get('/funding', [FundingController::class, 'show'] );
 
 Route::get('/results/{tag}', [ResultController::class, 'show'] );
 
-Route::get('/gallery', function () {
-    return view('gallery');
-});
+Route::get('/gallery', [GalleryController::class, 'show']);
 
 Route::get('/contactus', function () {
     return view('contactus');
 });
+
+
+// for temporary compatibility with old site structure
+Route::get('/lab', function () {
+    return redirect('/');
+});
+
+Route::get('/lab/contact-us', function () {
+    return redirect('/contactus');
+});
+
+Route::get('/lab/team', function () {
+    return redirect('/team');
+});
+
+Route::get('/lab/team/{any}', function () {
+    return redirect('/team');
+})->where('any', '.*');
+
+Route::get('/lab/{any}', function () {
+    return redirect('/');
+})->where('any', '.*');
 
 ?>

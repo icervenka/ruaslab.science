@@ -301,6 +301,9 @@ section.index {
   border: 2px solid #FFFFFF;
   border-radius: 50%;
   overflow: hidden;
+  /* text-align: center; */
+  /* margin-left: auto;
+  margin-right: auto; */
 }
 
 .profile-img img {
@@ -321,7 +324,7 @@ section.index {
   font-size: 20px;
   font-weight: 300;
   font-style: oblique;
-  padding-top: 15px;
+  padding-top: 5px;
 }
 
 /* Person page */
@@ -424,6 +427,10 @@ section.index {
   background-color: #995a5a;
 }
 
+.share-icons {
+  min-width: 54px;
+}
+
 .icon-facebook:hover {
   color: #3b5998;
 }
@@ -473,6 +480,8 @@ section.index {
   background-color: #e0ebeb;
 }
 
+/* Gallery */
+
 /* Address */
 
 .google-map {
@@ -482,6 +491,9 @@ section.index {
 
 /* media queries */
 @media (max-width: 767px) {
+  .page-title {
+    font-size: 2.2rem;
+  }
   .hide-in-small {
     display: none;
   }

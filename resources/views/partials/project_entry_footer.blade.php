@@ -5,12 +5,12 @@
       <div>By {{ $project->author }}</div>
       <div class="d-inline-flex flex-wrap">
         @foreach($project->tags as $tag)
-        <a href="{{ url('results/'.$tag->name) }}">
+        <a href="{{ url('results/'.$tag->name) }}" class="py-0">
           <div class="tag rounded">{{ $tag->name }}</div>
         </a>
         @endforeach
       </div>
-      <div>
+      <div class="share-icons">
         <a href="https://www.facebook.com/sharer.php?u={{ route('project', $project->layman_title) }}" target="_blank" rel="nofollow">
           <i class="fab fa-facebook-square publication-icon icon-facebook"></i>
         </a>

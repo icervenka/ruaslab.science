@@ -11,6 +11,8 @@
   <meta name="author" content="Igor Cervenka">
 
   <link href="{{ URL::asset('css/bootstrap.min.css') }}" , rel="stylesheet">
+  <link href="{{ URL::asset('css/justifiedGallery.min.css') }}" , rel="stylesheet">
+  <link href="{{ URL::asset('css/lightgallery.min.css') }}" , rel="stylesheet">
   <link href="{{ URL::asset('css/app.css') }}" , rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
   <link rel="icon" type="image/png" href="{{ URL::asset('favicon.ico') }}" sizes="32x32"/>
@@ -40,6 +42,10 @@
 <script src="{{ URL::asset('js/jquery.min.js') }}"></script>
 <script src="{{ URL::asset('js/popper.min.js') }}"></script>
 <script src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
-<script src="{{ URL::asset('js/scripts.js') }}"></script>
+<script src="{{ URL::asset('js/jquery.justifiedGallery.min.js') }}"></script>
+<script src="{{ URL::asset('js/lightgallery.min.js') }}"></script>
+<script src="{{ URL::asset('js/lg-autoplay.min.js') }}"></script>
+<script src="{{ URL::asset('js/lg-thumbnail.min.js') }}"></script>
+<script src="{{ URL::asset('js/app.js') }}"></script>
 
 </html>

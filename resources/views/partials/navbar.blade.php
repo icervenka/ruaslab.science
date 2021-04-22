@@ -11,6 +11,9 @@
             <a class="nav-link text-white" href="{{ url('/') }}">Home</a>
           </li>
           <li class="nav-item rounded">
+            <a class="nav-link text-white" href="{{ url('collaborators') }}">Collaborators</a>
+          </li>
+          <li class="nav-item rounded">
             <a class="nav-link text-white" href="{{ url('team') }}">Team</a>
           </li>
           <li class="nav-item rounded">

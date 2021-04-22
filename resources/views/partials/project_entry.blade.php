@@ -43,12 +43,12 @@
             @endif
             <p>{{ $project->layman_abstract_highlight }}</p>
             @if($project->completion == 100)
-            <div class="col-12">
+            <div class="col-12 px-0">
               <div class="row no-gutters">
                 <div class="col-2">
                   <a href="https://plu.mx/plum/a/?doi={{ $project->doi }}" class="plumx-plum-print-popup plum-bigben-theme" data-size="medium" ></a>
                 </div>
-                <div class="col-10">
+                <div class="col-10 pl-1">
                   <b>Original title</b>
                   <p><em>{{ $project->title }}</em></p>
                 </div>

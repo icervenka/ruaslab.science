@@ -6,7 +6,7 @@
       </h5>
       <hr>
       <p class="text-justify">
-        {{ $item->text }}
+        {!! $item->text !!}
       </p>
     </div>
   </div>

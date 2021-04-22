@@ -26,12 +26,12 @@
       "svg_class" : "muscle",
       "first_name": "Johanna",
       "surname" : "Lanner",
-      "position" : "Associate professor",
+      "position" : "Associate Professor",
       "address" : "Stockholm, Sweden",
       "email" : "johanna.lanner@ki.se",
       "bg_image" : "network_biomedicum.jpg",
       "title" : "Muscle",
-      "text" : "Our lab focuses on deciphering the molecular mechanisms that contributes to disease-induced muscle dysfunction and identifying novel therapeutic interventions to counteract muscle weakness. Altered Ca2+ handling, free radical signaling and mitochondrial function are key factors in the intramuscular interplay that may contribute to impaired muscle function and hence central components in our research."
+      "text" : "Our lab focuses on deciphering the molecular mechanisms that contributes to disease-induced muscle dysfunction and identifying novel therapeutic interventions to counteract muscle weakness. Altered calcium handling, free radical signaling and mitochondrial function are key factors in the intramuscular interplay that may contribute to impaired muscle function and hence central components in our research."
     },
     {
       "svg_class" : "liver",
@@ -42,7 +42,7 @@
       "email" : "myriam.aouadi@ki.se",
       "bg_image" : "network_huddinge.jpg",
       "title" : "Liver",
-      "text" : "Since the discovery of macrophages in adipose tissue, many laboratories have focused their effort on understanding the contribution of these immune cells to metabolic diseases. Despite great progress in characterizing obesity as a state of low-grade inflammation, very little is known about the multiple phenotypes and functions of macrophages in metabolic tissues. Our lab takes advantage of sophisticated methods to investigate macrophage subpopulations and their function in obesity-associated metabolic complications."
+      "text" : "Our lab uses systems biology and targeted gene manipulation approaches to investigate the multiple roles of macrophages and their function in obesity-associated liver and metabolic disease. We are particularly interested in Non-Alcoholic SteatoHepatitis (NASH), a life-threatening disease with a high world-wide prevalence and no approved medication. More about our research at <u><a href='https://aouadilab.com/' target='blank'>aouadilab.com</a></u>"
     },
     {
       "svg_class" : "fat",
@@ -53,7 +53,7 @@
       "email" : "martin.jastroch@su.se",
       "bg_image" : "network_stockholm_university.jpg",
       "title" : "Adipose tissue",
-      "text" : "Our research integrates research on whole animal metabolism with cellular and mitochondrial bioenergetics, aiming to identify molecular mechanisms and their significance for systemic energy homeostasis and metabolic disease."
+      "text" : "Our research integrates research on whole animal metabolism with cellular and mitochondrial bioenergetics, aiming to identify molecular mechanisms and their significance for systemic energy homeostasis and metabolic disease. We can provide a bioenergetics platform for membrane potential and proton leak kinetics, mouse metabolic phenotyping as well as pipeline for mouse generation."
     },
     {
       "svg_class" : "cogs",

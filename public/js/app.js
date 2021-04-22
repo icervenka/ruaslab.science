@@ -30,7 +30,7 @@ $(document).ready(function(){
   $('#carousel-mt .carousel-item:first').addClass('active');
 
   $('#carousel-1 .carousel-item:first').addClass('active');
-  
+
   $('#carousel-mt').on('slide.bs.carousel', function onSlide(ev) {
     var id = ev.relatedTarget.id;
     $('.hover_path').css('fill', '#BCBEC0');
@@ -62,6 +62,18 @@ $(document).ready(function(){
         break;
     }
   })
+});
+
+$('#basic-gallery').lightGallery({
+  autoplay: true,
+  thumbnail: true
+});
+
+$("#basic-gallery").justifiedGallery({
+  rowHeight : 225,
+  lastRow : 'nojustify',
+  margins : 3,
+  captions: true
 });
 
 mybutton = document.getElementById("scrollTop");
