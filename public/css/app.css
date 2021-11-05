@@ -4,10 +4,6 @@
   background-color: #e0ebeb;
 }
 
-/* body {
-  margin-top: 55px;
-} */
-
 section:nth-of-type(even) {
   background-color: #e0ebeb;
 }
@@ -177,7 +173,7 @@ section.index {
 
 /* Other pages variables and styles */
 .page-header {
-  height: 300px;
+  height: 250px;
   margin: 0px;
   background-size: cover;
   background-position: center;
@@ -468,6 +464,7 @@ section.index {
 .funding-card {
   padding: 0;
   margin: 2px;
+  font-size: 14px;
 }
 
 .funding-card .card-body{
@@ -478,6 +475,10 @@ section.index {
 .funding-card:hover {
   border: 1px solid #2F4F4F;
   background-color: #e0ebeb;
+}
+
+.funding-card .card-title {
+  font-weight: bold;
 }
 
 /* Gallery */

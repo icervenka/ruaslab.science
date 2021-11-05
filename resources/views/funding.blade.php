@@ -45,7 +45,7 @@
           finance through the conventional funding agencies.
         </p>
 
-        <div id="costChartContainer" style="height: 500px; width: 100%;"></div>
+        <div id="costChartContainer" style="height: 400px; width: 100%;"></div>
       </div>
     </div>
   </section>

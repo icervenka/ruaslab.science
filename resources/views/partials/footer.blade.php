@@ -1,4 +1,4 @@
-<footer class="container-fluid pt-md-5 pt-3 px-0 text-white" style="background-color:#5e7fa0;">
+<footer class="container-fluid pt-md-4 pt-3 px-0 text-white" style="background-color:#5e7fa0;">
   <div class="container px-0">
     <div class="row">
       <div class="col-lg-3 col-xs-12">
