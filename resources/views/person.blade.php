@@ -56,8 +56,9 @@
         @endforeach
         </div>
 
-        <hr>
+        
         @if ($person_data->quote_text)
+        <hr>
         <div class="row no-gutters py-2">
           <div class="quote w-100">
             <p class="lead">
@@ -74,6 +75,19 @@
         </div>
         <hr>
 
+        @php
+        $num_projects = 0;
+        $num_publications = 0;
+        foreach ($person_data->projects as $project) {
+          if ($project->completion  == 100) {
+            $num_publications += 1;
+          } else {
+            $num_projects +=1;
+          }
+        }
+        @endphp
+
+        @if ($num_projects > 0)
         <h5 class="badge-list-title">Projects</h5>
         <div class="d-flex no-gutters flex-wrap">
           @foreach($person_data->projects as $project)
@@ -82,7 +96,9 @@
             @endif
           @endforeach
         </div>
+        @endif
 
+        @if ($num_publications > 0)
         <h5 class="badge-list-title">Publications</h5>
         <div class="d-flex no-gutters flex-wrap">
           @foreach($person_data->projects as $project)
@@ -91,6 +107,8 @@
             @endif
           @endforeach
         </div>
+        @endif
+      
       </div>
     </div>
   </div>

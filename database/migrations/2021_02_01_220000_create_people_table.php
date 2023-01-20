@@ -21,9 +21,9 @@ class CreatePeopleTable extends Migration
             $table->string('bg_image');
             $table->string('first_name');
             $table->string('surname');
-            $table->string('email');
+            $table->string('email')->nullable();
             $table->string('position');
-            $table->string('address_city');
+            $table->string('address_city')->nullable();
             $table->string('address_state');
             $table->text('bio_text')->nullable();
             $table->text('quote_text')->nullable();

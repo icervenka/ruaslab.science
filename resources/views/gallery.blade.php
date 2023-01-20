@@ -8,7 +8,7 @@
 
 @section('page_content')
 
-<sectionclass="container-fluid">
+<section class="container-fluid">
   <div class="container px-0">
     <div class="row no-gutters">
       <div class="pb-3">&nbsp;</div>
