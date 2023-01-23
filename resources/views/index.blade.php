@@ -13,7 +13,7 @@
   <link href="{{ URL::asset('css/bootstrap.min.css') }}" , rel="stylesheet">
   <link href="{{ URL::asset('css/app.css') }}" , rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" />
-  <link rel="icon" type="image/png" href="{{ URL::asset('favicon.ico') }}" sizes="32x32"/>
+  <link rel="icon" type="image/png" href="{{ URL::asset('images/favicon.png') }}" sizes="32x32"/>
 </head>
 
 

@@ -309,11 +309,11 @@ section.index {
 
 .profile-badge .profile-text {
   position: relative;
-  vertical-align: middle;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 400;
   left: 10px;
-  top: 12px;
+  top: 50%;
+  transform: translate(0%, -50%);
 }
 
 .badge-list-title {
