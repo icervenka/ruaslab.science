@@ -10,8 +10,9 @@
 <section class="container-fluid">
   <div class="container px-0">
 
-    <div class="py-2 px-0, px-md-2">
-      <img class="img-fluid rounded" src={{ URL::asset('images/group_photo.jpg') }} alt="Group photo" />
+    <div class="py-2 px-0, px-md-2 fadein">
+      <img class="img-fluid rounded" src={{ URL::asset('images/group_photo_4.jpg') }} alt="Group photo" />
+      <img class="img-fluid rounded" src={{ URL::asset('images/group_photo_5.jpg') }} alt="Group photo" />
     </div>
 
     <div class="row no-gutters">

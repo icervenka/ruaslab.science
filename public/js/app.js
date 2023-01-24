@@ -96,3 +96,10 @@ function topFunction() {
   //document.body.scrollTop = 0; // For Safari
   //document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+$(function () {
+  $('.fadein img:gt(0)').hide();
+  setInterval(function () {
+      $('.fadein :first-child').fadeOut(0).next('img').fadeIn(0).end().appendTo('.fadein');
+  }, 5000);
+});
