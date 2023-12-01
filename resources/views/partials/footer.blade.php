@@ -11,39 +11,40 @@
       <div class="col-lg-3 col-6">
         <div class="px-3">
           <h4>Contact</h4>
-          <div class="row pb-1">
-            <div class="col-2">
+          <div class="row pb-1 pl-3">
+            {{-- <div class="col-2">
               <i class="fa fa-map-marker-alt"></i>
-            </div>
+            </div> --}}
             <div>
-              <span>Biomedicum<br>
-                Quarter C5<br>
-                Solnavägen 9<br>
-                171 65 Solna <br>
-                Sweden
+              <span>Institute for Heart and Brain Health<br>
+                Michigan Medicine<br>
+                Department of Pharmacology<br>
+                NCRC B25-2696<br>
+                Ann Arbor, MI 48109-2800<br>
+                USA
               </span>
             </div>
           </div>
-          <div class="row pb-1">
-            <div class="col-2">
+          <div class="row pb-1 pl-3">
+            {{-- <div class="col-2">
               <i class="fa fa-envelope"></i>
-            </div>
+            </div> --}}
             <div>
-              <span>Jorge.Ruas(at)ki.se</span>
+              <span>jlruas(at)med.umich.edu</span>
             </div>
           </div>
-          <div class="row pb-1">
-            <div class="col-2">
+          <div class="row pb-1 pl-3">
+            {{-- <div class="col-2">
               <i class="fa fa-phone"></i>
-            </div>
+            </div> --}}
             <div>
-              <span>+46(0)852487261</span>
+              <span>+1-734-881-4510</span>
             </div>
           </div>
-          <div class="row pb-1">
-            <div class="col-2">
+          <div class="row pb-1 pl-3">
+            {{-- <div class="col-2">
               <i class="fab fa-twitter"></i>
-            </div>
+            </div> --}}
             <div>
               <span>@ruaslab</span>
             </div>
@@ -55,21 +56,21 @@
           <h4>Quick links</h4>
           <ul class="footer_links" style="list-style-type: none; padding: 0;">
             <li>
-              <a href="https://ki.se/" target="_blank">
+              <a href="https://medicine.umich.edu/medschool/home" target="_blank">
                 <i class="fa fa-chevron-right">
-                </i> Karolinska Insitutet
+                </i> University of Michigan Medical School
               </a>
             </li>
             <li>
-              <a href="https://ki.se/en/fyfa/department-of-physiology-and-pharmacology" target="_blank">
+              <a href="https://ihbh.medicine.umich.edu/news-events" target="_blank">
                 <i class="fa fa-chevron-right">
-                </i> FyFa
+                </i> Institute for Heart and Brain Health
               </a>
             </li>
             <li>
-              <a href="https://ki.se/en/srp-diabetes/strategic-research-programme-in-diabetes-srp-diabetes" target="_blank">
+              <a href="https://medicine.umich.edu/dept/pharmacology" target="_blank">
                 <i class="fa fa-chevron-right">
-                </i> SRP Diabetes
+                </i> Department of Pharmacology
               </a>
             </li>
             <li>
@@ -96,6 +97,9 @@
       <div class="col-lg-3 col-xs-12">
         <div class="px-3">
           <h4>Connect With Us</h4>
+          <div>
+            We have moved to the University of Michigan, Ann Arbor!
+          </div>
           <form class="" action="" method="post">
             <div class="form-group">
               <input class="form-control mb-2" type="text" name="" placeholder="Your email address" style="background-color:#dfe6ec">
